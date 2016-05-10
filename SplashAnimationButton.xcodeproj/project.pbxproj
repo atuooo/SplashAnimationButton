@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C951206E1CE220F30080543D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951206D1CE220F30080543D /* AppDelegate.swift */; };
+		C95120701CE220F30080543D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C951206F1CE220F30080543D /* ViewController.swift */; };
+		C95120731CE220F30080543D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95120711CE220F30080543D /* Main.storyboard */; };
+		C95120751CE220F30080543D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95120741CE220F30080543D /* Assets.xcassets */; };
+		C95120781CE220F30080543D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95120761CE220F30080543D /* LaunchScreen.storyboard */; };
+		C95120821CE223190080543D /* SplashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95120811CE223190080543D /* SplashButton.swift */; };
+		C95120841CE223460080543D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95120831CE223460080543D /* SplashView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C951206A1CE220F30080543D /* SplashAnimationButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashAnimationButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C951206D1CE220F30080543D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C951206F1CE220F30080543D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C95120721CE220F30080543D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C95120741CE220F30080543D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C95120771CE220F30080543D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C95120791CE220F30080543D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C95120811CE223190080543D /* SplashButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashButton.swift; path = Classes/SplashButton.swift; sourceTree = SOURCE_ROOT; };
+		C95120831CE223460080543D /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashView.swift; path = Classes/SplashView.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C95120671CE220F30080543D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C95120611CE220F30080543D = {
+			isa = PBXGroup;
+			children = (
+				C951206C1CE220F30080543D /* SplashAnimationButton */,
+				C951207F1CE221160080543D /* Supporthings */,
+				C951206B1CE220F30080543D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C951206B1CE220F30080543D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C951206A1CE220F30080543D /* SplashAnimationButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C951206C1CE220F30080543D /* SplashAnimationButton */ = {
+			isa = PBXGroup;
+			children = (
+				C95120801CE222D10080543D /* Classes */,
+				C951206D1CE220F30080543D /* AppDelegate.swift */,
+				C951206F1CE220F30080543D /* ViewController.swift */,
+			);
+			path = SplashAnimationButton;
+			sourceTree = "<group>";
+		};
+		C951207F1CE221160080543D /* Supporthings */ = {
+			isa = PBXGroup;
+			children = (
+				C95120761CE220F30080543D /* LaunchScreen.storyboard */,
+				C95120711CE220F30080543D /* Main.storyboard */,
+				C95120741CE220F30080543D /* Assets.xcassets */,
+				C95120791CE220F30080543D /* Info.plist */,
+			);
+			name = Supporthings;
+			path = SplashAnimationButton;
+			sourceTree = "<group>";
+		};
+		C95120801CE222D10080543D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C95120811CE223190080543D /* SplashButton.swift */,
+				C95120831CE223460080543D /* SplashView.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C95120691CE220F30080543D /* SplashAnimationButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C951207C1CE220F30080543D /* Build configuration list for PBXNativeTarget "SplashAnimationButton" */;
+			buildPhases = (
+				C95120661CE220F30080543D /* Sources */,
+				C95120671CE220F30080543D /* Frameworks */,
+				C95120681CE220F30080543D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplashAnimationButton;
+			productName = SplashAnimationButton;
+			productReference = C951206A1CE220F30080543D /* SplashAnimationButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C95120621CE220F30080543D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = oOatuo;
+				TargetAttributes = {
+					C95120691CE220F30080543D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C95120651CE220F30080543D /* Build configuration list for PBXProject "SplashAnimationButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C95120611CE220F30080543D;
+			productRefGroup = C951206B1CE220F30080543D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C95120691CE220F30080543D /* SplashAnimationButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C95120681CE220F30080543D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95120781CE220F30080543D /* LaunchScreen.storyboard in Resources */,
+				C95120751CE220F30080543D /* Assets.xcassets in Resources */,
+				C95120731CE220F30080543D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C95120661CE220F30080543D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C95120821CE223190080543D /* SplashButton.swift in Sources */,
+				C95120841CE223460080543D /* SplashView.swift in Sources */,
+				C95120701CE220F30080543D /* ViewController.swift in Sources */,
+				C951206E1CE220F30080543D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C95120711CE220F30080543D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95120721CE220F30080543D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C95120761CE220F30080543D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C95120771CE220F30080543D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C951207A1CE220F30080543D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C951207B1CE220F30080543D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C951207D1CE220F30080543D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SplashAnimationButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atuo.SplashAnimationButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C951207E1CE220F30080543D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SplashAnimationButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atuo.SplashAnimationButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C95120651CE220F30080543D /* Build configuration list for PBXProject "SplashAnimationButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C951207A1CE220F30080543D /* Debug */,
+				C951207B1CE220F30080543D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C951207C1CE220F30080543D /* Build configuration list for PBXNativeTarget "SplashAnimationButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C951207D1CE220F30080543D /* Debug */,
+				C951207E1CE220F30080543D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C95120621CE220F30080543D /* Project object */;
+}
